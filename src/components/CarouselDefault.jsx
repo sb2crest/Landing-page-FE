@@ -78,12 +78,6 @@ export function CarouselDefault() {
               </span>
               <span> {slide.subtitle.split(" ").slice(1).join(" ")}</span>
             </h1>
-            <a
-              href={slide.link}
-              className="mt-4 px-6 py-3 bg-orange-900 text-white text-lg font-semibold rounded hover:bg-orange-700 transition duration-300"
-            >
-              Read More
-            </a>
           </div>
         </div>
       ))}
